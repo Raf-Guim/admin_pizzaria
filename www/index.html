@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src * data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Admin Pizzaria</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="app-lista" id="applista">
+                <div class="superior">
+                    <ul id="listaPizzas">
+                        <li>
+                            <h2>Marguerita</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Calabresa</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Brocolis</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Marguerita</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Frango com catupiry</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Havaiana</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Meat Lover</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                        <li>
+                            <h2>Jerusalem</h2>
+                            <h3>R$ 25.50</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="inferior">
+                    <button type="button" class="botao-novo" id="btnNovo">Novo</button>
+                </div>
+            </div>
+            <div class="app-cadastro" id="appcadastro">
+                <div class="imagem" id="imagem">
+                    
+                </div>
+                <div class="form">
+                    <div class="form-linha">
+                        <h1>Pizza</h1>
+                        <input type="text" class="form-linha-dir" id="pizza">
+                    </div>
+                    <div class="form-linha">
+                        <h1>Preço</h1>
+                        <input type="number" class="form-linha-dir" id="preco">
+                    </div>
+                </div>
+                <div class="botoes">
+                    <button type="button" class="botao" id="btnFoto">Foto</button>
+                    <button type="button" class="botao" id="btnSalvar">Salvar</button>
+                    <button type="button" class="botao" id="btnExcluir">Excluir</button>
+                    <button type="button" class="botao" id="btnCancelar">Cancelar</button>
+                </div>
+            </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
